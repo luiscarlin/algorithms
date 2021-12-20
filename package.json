@@ -1,0 +1,19 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:luiscarlin/algorithms.git",
+  "author": "Luis Carlin <luiscarlin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:watch": "yarn test -- --watch",
+    "format": "prettier --write **/*.js"
+  },
+  "dependencies": {
+    "@jest/globals": "^27.4.4",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1"
+  }
+}
