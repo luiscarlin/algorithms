@@ -739,6 +739,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jest@npm:^27.0.3":
+  version: 27.0.3
+  resolution: "@types/jest@npm:27.0.3"
+  dependencies:
+    jest-diff: ^27.0.0
+    pretty-format: ^27.0.0
+  checksum: 3683a9945821966f6dccddf337219a5d682633687c9d30df859223db553589f63e9b2c34e69f0cc845c86ffcf115742f25c12ea03c8d33d2244890fdc0af61e2
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*":
   version: 17.0.1
   resolution: "@types/node@npm:17.0.1"
@@ -860,6 +870,7 @@ __metadata:
   resolution: "algorithms@workspace:."
   dependencies:
     "@jest/globals": ^27.4.4
+    "@types/jest": ^27.0.3
     jest: ^27.4.5
     prettier: ^2.5.1
   languageName: unknown
@@ -2135,7 +2146,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^27.4.2":
+"jest-diff@npm:^27.0.0, jest-diff@npm:^27.4.2":
   version: 27.4.2
   resolution: "jest-diff@npm:27.4.2"
   dependencies:
@@ -3090,7 +3101,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.4.2":
+"pretty-format@npm:^27.0.0, pretty-format@npm:^27.4.2":
   version: 27.4.2
   resolution: "pretty-format@npm:27.4.2"
   dependencies:
