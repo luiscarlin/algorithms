@@ -1,3 +1,7 @@
-## Algorithms
+# Algorithms
 
-Multiple programming algorithms
+Collection of programming algorithms
+
+## TODO
+
+- [ ] Khan's topological sorting
