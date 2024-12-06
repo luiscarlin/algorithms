@@ -1,24 +1,12 @@
 {
   "name": "algorithms",
-  "version": "1.0.0",
+  "private": true,
+  "description": "various algorithms",
   "type": "module",
-  "repository": "git@github.com:luiscarlin/algorithms.git",
-  "author": "Luis Carlin <luiscarlin@gmail.com>",
-  "license": "MIT",
-  "jest": {
-    "transform": {}
-  },
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest",
-    "test:watch": "yarn test -- --watch",
-    "format": "prettier --write **/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@jest/globals": "^27.4.4",
-    "jest": "^27.4.5",
-    "prettier": "^2.5.1"
-  },
-  "devDependencies": {
-    "@types/jest": "^27.0.3"
+    "prettier-plugin-organize-imports": "^4.1.0"
   }
 }
